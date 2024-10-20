@@ -71,15 +71,15 @@ window.onload = function () {
     document.getElementById("form").reset();
 };
 
-window.addEventListener('contextmenu', function (e) {
-    e.preventDefault();
-  });
+// window.addEventListener('contextmenu', function (e) {
+//     e.preventDefault();
+//   });
 
-  // Disable Ctrl+Shift+R, Ctrl+R, and Ctrl+Shift+I
-  window.addEventListener('keydown', function (e) {
-    if ((e.ctrlKey && e.shiftKey && e.key === 'R') || // Ctrl+Shift+R
-        (e.ctrlKey && e.key === 'r') || // Ctrl+R
-        (e.ctrlKey && e.shiftKey && e.key === 'I')) { // Ctrl+Shift+I
-      e.preventDefault();
-    }
-  })
+//   // Disable Ctrl+Shift+R, Ctrl+R, and Ctrl+Shift+I
+//   window.addEventListener('keydown', function (e) {
+//     if ((e.ctrlKey && e.shiftKey && e.key === 'R') || // Ctrl+Shift+R
+//         (e.ctrlKey && e.key === 'r') || // Ctrl+R
+//         (e.ctrlKey && e.shiftKey && e.key === 'I')) { // Ctrl+Shift+I
+//       e.preventDefault();
+//     }
+//   })
